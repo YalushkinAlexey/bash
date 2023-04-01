@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "H E L L O"
+read DIRECTORY
+rm ~/$DIRECTORY/*.bak
+rm ~/$DIRECTORY/*.backup
+rm ~/$DIRECTORY/*.tmp
+
+
+
